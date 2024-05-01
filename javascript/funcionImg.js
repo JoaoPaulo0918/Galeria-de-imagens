@@ -7,7 +7,7 @@ btns.forEach((btn) => {
         // Obtendo o caminho da imagem do atributo "data-img" do botão
         let imagePath = btn.getAttribute('data-img');
 
-        // Obtendo o div da imagem correspondente ao botão clicado
+        // Aqui vai obter a div da imagem correspondente ao botão clicado
         let divCard = btn.parentElement;
 
         // Alterando o fundo do div para a nova imagem
