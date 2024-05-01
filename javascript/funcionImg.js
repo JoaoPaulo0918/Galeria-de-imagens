@@ -1,7 +1,7 @@
 // Selecionando todos os botões
 let btns = document.querySelectorAll('.gallery-card-btn');
 
-// Adicionando evento de clique para cada botão
+// Adicionando evento de clique para cada botão.
 btns.forEach((btn) => {
     btn.addEventListener('click', () => {
         // Obtendo o caminho da imagem do atributo "data-img" do botão
