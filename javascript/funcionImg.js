@@ -13,4 +13,5 @@ btns.forEach((btn) => {
         // Alterando o fundo do div para a nova imagem
         divCard.style.backgroundImage = `url(../img/${imagePath})`;
     });
+    
 });
